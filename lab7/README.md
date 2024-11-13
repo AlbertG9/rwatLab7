@@ -1,4 +1,4 @@
-# Sample
+# Lab7 - In this lab i used Page 2 the filter functionanlity
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
 

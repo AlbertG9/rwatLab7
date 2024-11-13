@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "sample": {
+    "lab7": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/sample",
+            "outputPath": "dist/lab7",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "sample:build:production"
+              "buildTarget": "lab7:build:production"
             },
             "development": {
-              "buildTarget": "sample:build:development"
+              "buildTarget": "lab7:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -94,14 +94,11 @@
             ],
             "scripts": []
           }
-        },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
   },
   "cli": {
-    "analytics": "1290b8d8-6eb4-4f68-8900-8f89ded6d3d7"
+    "analytics": "81ed5041-7d38-420b-a4e7-ae75faeb47b5"
   }
 }
